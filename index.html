@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HOME PAGE</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			html,body{
+				height: 100%;
+			}
+			body{
+				width: 100%;
+				height: 100%;
+ 
+			}
+			p{font-weight: 600;
+			font-size:large
+			}
+			.banner-area{
+				background-image: url("images/fon.jpg");
+				background-position: center;
+				-webkit-background-size:cover;
+				background-size:cover;
+				//position: relative;
+				height: 100%;
+				color: #ffffff;
+				padding-top:10%
+			}
+			#section1 {padding-top:50px;height: 100%;color: #fff; background-color: #1E88E5;}
+			#section2 {padding-top:50px;height: 100%;color: #fff; background-color: #673ab7;}
+			#section3 {padding-top:50px;height: 100%;color: #fff; background-color: #ff9800;}
+			#img1{max-width: 100%;height: auto;display: block; padding:10%}
+			#div1{width: 100%; padding-right: 0%;padding-left: 0%}
+			.row-flex, .row-flex > div[class*='col-'] { 
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				flex:1 1 auto;
+				
+			}
+			.row-flex-wrap {
+				-webkit-flex-flow: row wrap;
+				align-content: flex-start;
+				flex:0;
+				
+			}
+			.row-flex > div[class*='col-'] {
+				margin:-.2px;
+				align-items:center;
+			}
+		</style>
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>                        
+			  </button>
+			  <a class="navbar-brand" href="#">ABOUT ME</a>
+			</div>
+			<div>
+			  <div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+				  <li><a href="#section1">Хобби</a></li>
+				  <li><a href="#section2">Учеба</a></li>
+				  <li><a href="#section3">Работа</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</nav> 	
+		<div class="container-fluid" id="div1">
+			<div class="banner-area container-fluid">
+					<div class="row">
+						<div class="col-sm-8">
+							<h1>Всем привет, меня зовут Артем!</h1>
+							<p>И это моя маленькая история обо мне.</p> 
+							<p>Родился в 1995 году, поэтому мне сейчас уже 23 года.</p> 
+							<p>Не женат.</p> 
+							<p>Вредных привычек не имею.</p> 
+						</div>
+						<div class="col-sm-4">
+							<img src="images/Foto.jpg" class="img-fluid" id="img1" alt="Foto"> 
+						</div>
+					</div>
+			</div> 
+			<div id="section1" class="container-fluid" >
+							<h1>Хобби</h1>
+							<p>В основном мое хобби связанно с компьютером. Мне нравится всё: устанавливать программы, налаживать работу программ и железа, люблю перебирать, чинить и собирать компьютеры. </p>
+							<p>Другое мое хобби - это творчество, я постоянно хочу сделать что-то из бумаги или дерева. Из бумаги делаю модельки космических кораблей или персонажей игры minecraft.</p>
+						<div class = "row row-flex row-flex-wrap">
+						  <div class="col-sm-4">
+							<div class="thumbnail">
+							  <a href="images/Hobbi.jpg">
+								<img src="images/Hobbi.jpg" alt="Hobbi" style="width:100%">
+							  </a>
+							</div>
+						  </div>
+						  <div class="col-sm-4">
+							<div class="thumbnail">
+							  <a href="images/Hobbi2.jpg">
+								<img src="images/Hobbi2.jpg" alt="Hobbi2" style="width:100%">
+							  </a>
+							</div>
+						  </div>
+						  <div class="col-sm-4">
+							<div class="thumbnail">
+							  <a href="images/Hobbi4.jpg">
+								<img src="images/Hobbi4.jpg" alt="Hobbi3" style="width:100%">
+							  </a>
+							</div>
+						  </div>
+						</div>
+			</div>
+			<div id="section2" class="container-fluid" >
+				<h1>Учеба</h1>
+				<p>Гимназию №76 я закончил в 2013 году, был президентом школы, закончил без троек, съездил на конкурс командой в Шанхай, школа дала мне хороший толчок в развитии с разных сторон.</p>
+				<p>ЮУрГУ я закончил в 2017 году с красным дипломом. Я познакомился с интересными людьми, провел эти годы за интересными мне предметами.</p>
+				<div class = "row row-flex row-flex-wrap">
+				  <div class="col-sm-4">
+					<div class="thumbnail">
+					  <a href="images/Univer1.jpg">
+						<img src="images/Univer1.jpg" alt="Univer1" style="width:100%">
+					  </a>
+					</div>
+				  </div>
+				  <div class="col-sm-4">
+					<div class="thumbnail">
+					  <a href="images/Univer2.jpg">
+						<img src="images/Univer2.jpg" alt="Univer2" style="width:100%">
+					  </a>
+					</div>
+				  </div>
+				  <div class="col-sm-4">
+					<div class="thumbnail">
+					  <a href="images/Univer3.jpg">
+						<img src="images/Univer3.jpg" alt="Univer3" style="width:100%">
+					  </a>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<div id="section3" class="container-fluid">
+				<h1>Работа</h1>
+				<p>Если я бы делал себе визитку, то я бы на ней написал: "Артем - программист, робототехник, массажист".</p>
+				<p>По сути у меня есть навыки для работы на любой из этих специальностей.</p>
+				<p>По выходным я обучаю детей LEGO-робототехнике, а на неделе работаю Android-разработчиком.</p>
+				<p>Наверное спросите про третью специальность, то обращайтесь, недорогой массаж с выездом на дом)</p>
+				<div class = "row row-flex row-flex-wrap">
+				  <div class="col-sm-4">
+					<div class="thumbnail">
+					  <a href="images/job.jpg">
+						<img src="images/job.jpg" alt="job" style="width:100%">
+					  </a>
+					</div>
+				  </div>
+				  <div class="col-sm-4">
+					<div class="thumbnail">
+					  <a href="images/job2.jpg">
+						<img src="images/job2.jpg" alt="job2" style="width:100%">
+					  </a>
+					</div>
+				  </div>
+				  <div class="col-sm-4">
+					<div class="thumbnail">
+					  <a href="images/job3.jpg">
+						<img src="images/job3.jpg" alt="job3" style="width:100%">
+					  </a>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
